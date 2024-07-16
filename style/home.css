@@ -1,0 +1,149 @@
+h2{
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+}
+
+span{
+    color: white;
+    /* text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 25px red, 0 0 30px red, 0 0 35px red; */
+    /* text-shadow: 0 0 5px green, 0 0 10px green, 0 0 15px green, 0 0 20px green, 0 0 25px green, 0 0 30px green, 0 0 35px green; */
+    /* text-shadow: 0 0 5px blue, 0 0 10px blue, 0 0 15px blue, 0 0 20px blue, 0 0 25px blue, 0 0 30px blue, 0 0 35px blue; */
+    /* text-shadow: 0 0 5px yellow, 0 0 10px yellow, 0 0 15px yellow, 0 0 20px yellow, 0 0 25px yellow, 0 0 30px yellow, 0 0 35px yellow; */
+    text-shadow: 0 0 5px #f94ca4, 0 0 10px #f94ca4, 0 0 15px #f94ca4, 0 0 20px #f94ca4, 0 0 25px #f94ca4, 0 0 30px #f94ca4, 0 0 35px #f94ca4;
+
+
+}
+
+.game-card {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+
+
+/* משולש ליד אודות */
+.triangle-section {
+    overflow: hidden;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    background-image: url("../images/Designer\ \(75\).jpeg");
+    border-top: 100vh solid #007bff;
+    /* צבע המשולש */
+    border-right: 100vw solid transparent;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .triangle {
+        display: none;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+}
+
+
+
+.game-card .imageGame {
+    height: 50%;
+    max-width: 200%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    background-color: #f94ca4;
+}
+
+.game-card {
+    max-width: 100%;
+    margin-bottom: 70%;
+    margin-top: 20%;
+}
+
+#imageDice {
+    background-image: url("../images/imageDice.PNG");
+    background-size: cover;
+    background-position: center
+}
+
+#imageSimon {
+    background-image: url("../images/simon.PNG");
+    background-size: cover;
+    background-position: center
+}
+
+#imageDurmKit{
+    background-image: url("../images/DurmKit.PNG");
+    background-size: cover;
+    background-position: center
+}
+
+
+
+/* כרטיס משחק צבעוני */
+
+
+.game-card {
+    /* width: 190px;
+    height: 254px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* gap: 10px;
+    padding: 0px 15px; */
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    font-weight: 900;
+    transition-duration: .2s;
+    background: linear-gradient(0deg, #000, #272727);
+  }
+  
+  .game-card :before, .game-card:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+          #0000ff, #00ff00,#ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+  }
+  
+  @keyframes steam {
+    0% {
+      background-position: 0 0;
+    }
+  
+    50% {
+      background-position: 400% 0;
+    }
+  
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .game-card:after {
+    filter: blur(100px);
+  }
+  
+  
