@@ -7,7 +7,7 @@ ensuring an enjoyable experience whether you're using a desktop, tablet, or smar
 
 🌟 Features
 Responsive Design: Enjoy a smooth experience on any device.
-Variety of Games: A diverse collection of fun and interactive games.
+Variety of Games:  A diverse collection of fun and interactive games.
 User-Friendly Interface: Simple navigation for gamers of all ages.
 Modern Technologies: Built with the latest web development standards.
 
