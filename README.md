@@ -1,7 +1,7 @@
 🎮 Responsive Gaming Website
 
 Welcome to the Responsive Gaming Website!
-This platform offers an immersive gaming experience that adapts seamlessly across devices,
+This platform offers an immersive gaming experience that adapts seamlessly across devices ,
 ensuring an enjoyable experience whether you're using a desktop, tablet, or smartphone.
 
 
