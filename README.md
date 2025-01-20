@@ -12,6 +12,6 @@ User-Friendly Interface: Simple navigation for gamers of all ages.
 Modern Technologies: Built with the latest web development standards.
 
 
-🛠️ Built With
+🛠️ Built With 
 HTML5 & CSS3 & Bootstrap & jQuery: For clean structure and responsive styling.
 JavaScript: For interactive gameplay and dynamic features.
