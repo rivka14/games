@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    //בשביל החיפוש
+//search
     const searchForm = document.querySelector('form[role="search"]');
     const searchInput = document.getElementById('game-search');
     const gamesSection = document.getElementById('games-section');
@@ -35,13 +35,13 @@ document.addEventListener('DOMContentLoaded', () => {
             noResultsMessage.style.display = 'block';
         }
 
-        // גלילה לאזור המשחקים
+        // area games
         gamesSection.scrollIntoView({ behavior: 'smooth' });
     }
 
-    // חיפוש בעת שליחת הטופס
+    // search when send the file
     searchForm.addEventListener('submit', (event) => {
-        event.preventDefault(); // מניעת שליחת הטופס
+        event.preventDefault(); //prevent sending file
         performSearch();
     });
 
@@ -88,28 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // איפוס הטופס
         signupForm.reset();
     });
-
-
-
-    ///הקםצה אם לא התחבר
-
-    // function startLoginTimer() {
-    //     clearTimeout(loginTimer);
-    //     loginTimer = setTimeout(() => {
-    //         loginModal.show(); // שינוי: פתיחת חלונית ההתחברות במקום הצגת הודעה
-    //     }, 10000); // 10 שניות
-    // }
-
-
-    // setTimeout(() => {
-    //     if (!document.querySelector('.modal.show')) {
-    //       loginModal.show();
-    //     }
-    //   }, 10000);
-
-    // document.getElementById('loginModal').addEventListener('hidden.bs.modal', () => {
-    //     clearTimeout(loginTimer);
-    // });
 
 
     document.addEventListener('DOMContentLoaded', () => {
