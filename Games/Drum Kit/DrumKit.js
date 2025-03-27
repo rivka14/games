@@ -2,10 +2,10 @@ let buttons = document.querySelectorAll(".drum");
 
 for (let i = 0; i < buttons.length; i++) {
 
-   //כשלוחצים על הכפתור
+   //when press on the butten 
    buttons[i].addEventListener('click', () => {
 
-      //שמירת כפתור ספציפי
+      //save current butten
       let currentLetter = buttons[i].innerHTML;
       //אירוע סאונד בלחיצה
       makeSound(currentLetter);
