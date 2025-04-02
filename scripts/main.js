@@ -49,7 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    //  פתיחת חלונית התחברות
     const loginButton = document.getElementById('loginButton');
     const loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
     const loginForm = document.getElementById('loginForm');
@@ -63,7 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loginForm.addEventListener('submit', (event) => {
         event.preventDefault();
-        // כאן תוכל להוסיף לוגיקת התחברות
         loginModal.hide();
         clearTimeout(loginTimer);
     });
@@ -71,7 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
 
-    // פתיחת חלונית הרשמה 
 
     const signupForm = document.getElementById('signupForm');
 
@@ -82,10 +79,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const email = document.getElementById('signupEmail').value;
         const password = document.getElementById('signupPassword').value;
 
-        // כאן תוכל להוסיף לוגיקה לשליחת הנתונים לשרת או לשמירה מקומית
         console.log('Signup:', { username, email, password });
 
-        // איפוס הטופס
+        // Reset the form
         signupForm.reset();
     });
 
