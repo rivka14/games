@@ -7,9 +7,9 @@ for (let i = 0; i < buttons.length; i++) {
 
       //save current butten
       let currentLetter = buttons[i].innerHTML;
-      //אירוע סאונד בלחיצה
+      //Sound event on click
       makeSound(currentLetter);
-      //אירוע שקיפות בלחיצה
+      //Transparency event on click
       buttonAnimation(currentLetter);
    });
    
@@ -17,14 +17,14 @@ for (let i = 0; i < buttons.length; i++) {
 
 
 
-//צליל בהתאם לכפתור/מקש שנלחץ
+//Sound depending on the button/key pressed
 function makeSound(currentLetter) {
 
    currentLetter = currentLetter.toLowerCase();
 
    switch (currentLetter) {
       case "w":
-       //שמירת הסאונד לכפתור הספציפי והפעלתו
+     //Saving the sound for the specific button and playing it
       let tom1 = new Audio("sounds/tom-1.mp3");
       tom1.play();
       break;
@@ -66,15 +66,13 @@ function makeSound(currentLetter) {
    }
 }
 
-
-// כשלוחצים על מקש  במקלדת שיעשה צליל
+// Sound when pressing a key on the keyboard
 document.addEventListener("keydown", (event) =>{
    makeSound(event.key);
    buttonAnimation(event.key);
 });
 
-
-//כשלוחצים על הכפתור שיעשה שקיפות
+//Transparency at the click of a button
 function buttonAnimation(currentKey) {
 
    let activeButton = document.querySelector("." + currentKey);
