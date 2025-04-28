@@ -8,10 +8,6 @@ h1{
 
 span{
     color: white;
-    /* text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 25px red, 0 0 30px red, 0 0 35px red; */
-    /* text-shadow: 0 0 5px green, 0 0 10px green, 0 0 15px green, 0 0 20px green, 0 0 25px green, 0 0 30px green, 0 0 35px green; */
-    /* text-shadow: 0 0 5px blue, 0 0 10px blue, 0 0 15px blue, 0 0 20px blue, 0 0 25px blue, 0 0 30px blue, 0 0 35px blue; */
-    /* text-shadow: 0 0 5px yellow, 0 0 10px yellow, 0 0 15px yellow, 0 0 20px yellow, 0 0 25px yellow, 0 0 30px yellow, 0 0 35px yellow; */
     text-shadow: 0 0 5px #f94ca4, 0 0 10px #f94ca4, 0 0 15px #f94ca4, 0 0 20px #f94ca4, 0 0 25px #f94ca4, 0 0 30px #f94ca4, 0 0 35px #f94ca4;
 
 
@@ -24,7 +20,6 @@ span{
 }
 
 
-/* משולש ליד אודות */
 .triangle-section {
     overflow: hidden;
 }
@@ -90,18 +85,7 @@ span{
 }
 
 
-
-/* כרטיס משחק צבעוני */
-
-
 .game-card {
-    /* width: 190px;
-    height: 254px; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    /* gap: 10px;
-    padding: 0px 15px; */
     background-color: red;
     border-radius: 10px;
     border: none;
